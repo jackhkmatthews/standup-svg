@@ -1,4 +1,4 @@
-class SvgDrawer {
+class D3SvgDrawer {
   constructor(day){
     this.day = day;
   }
@@ -8,7 +8,9 @@ class SvgDrawer {
     const d3 = dom.window.d3;
     const svg = d3.select(dom.window.document).select('svg')
       .attr('version', 1.1)
-      .attr('xmlns', 'http://www.w3.org/2000/svg');
+      .attr('xmlns', 'http://www.w3.org/2000/svg')
+      .attr('height', 400)
+      .attr('width', 400);
 
     const originX = 200;
     const originY = 200;
@@ -94,4 +96,4 @@ class SvgDrawer {
 
 }
 
-exports.SvgDrawer = SvgDrawer;
+exports.D3SvgDrawer = D3SvgDrawer;

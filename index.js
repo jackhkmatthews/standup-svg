@@ -2,20 +2,20 @@ const fs        = require('fs');
 const jsdom     = require('jsdom');
 const d3        = require('d3');
 require('d3-selection-multi');
-const SvgDrawer = require('./svgDrawer.js').SvgDrawer;
+const D3SvgDrawer = require('./drawer/d3-svg-drawer.js').D3SvgDrawer;
 
-const data      = require('../data/march-2017.json');
+const data      = require('./data/march-2017.json');
 
 const { JSDOM } = jsdom;
 
 data.forEach((day, index) => {
-  const svgDrawer = new SvgDrawer(day);
+  const d3SvgDrawer = new D3SvgDrawer(day);
 
-  JSDOM.fromFile(`${__dirname}/index.html`, { 
+  JSDOM.fromFile(`${__dirname}/html/index.html`, { 
     beforeParse(window) {
       window.d3 = d3;
     } 
   }).then(dom => {
-    fs.writeFileSync(`${__dirname}/../output/output_${index}.svg`, svgDrawer.getSvgHtml(dom));
+    fs.writeFileSync(`${__dirname}/output/output_${index}.svg`, d3SvgDrawer.getSvgHtml(dom));
   });
 });
