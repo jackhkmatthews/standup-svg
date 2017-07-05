@@ -1,0 +1,41 @@
+01/03/2017: ken > florence > james > emma > fred > vanda > ryan > chris > ed > inga > alex | alex > ed > fred > ken > florence > emma > chris > ryan > vanda > inga > james
+
+02/03/2017: vanda > ryan > emma > chris > greg > ed > florence > ken > inga > fred > alex | greg > ryan > florence > inga > vanda > chris > ken > alex > emma > ed > fred
+
+03/03/2017: ken > ryan > emma > vanda > chris > florence > james > ed > greg | emma > ryan > chris > greg > vanda > ken > florence > james > ed
+
+06/03/2017: ken > chris > greg > james > ed > florence > emma > ryan > vanda | greg > chris > ken > vanda > ryan > ed > james > emma > florence
+
+07/03/2017: ken > ed > james > fred > greg > alex > inga > ryan > emma > vanda > florence > chris | alex > chris > ed > emma > vanda > ken ryan > inga > greg > james > fred > florence
+
+08/03/2017: ken ed > james > ryan > florence > inga > emma > vanda > chris | chris > vanda > ryan > inga > emma > ed > florence > james > ken
+
+09/03/2017: ken > florence > james > inga > vanda > emma > chris > ed | florence > james > emma > vanda > chris > ed > ken > inga
+
+10/03/2017: ken > florence > emma > ed > james > ryan > vanda > chris | florence > ryan > ken > vanda > chris > ed > emma > james
+
+13/03/2017: ken > ryan > inga > emma > chris > florence > ed | chris > ryan > ed > florence > emma > inga > ken
+
+14/03/2017: ken > florence > james > ed > ryan > vanda > emma > inga > chris | florence > ed > inga > ken > ryan > vanda > emma > james > chris
+
+15/03/2017: ken > ed > james> florence > inga > emma > vanda > ryan > chris | vanda > ryan > chris > ken > ed > james > emma > inga > florence
+
+16/03/2017: ken > fred > vanda > inga > alex > emma > chris > greg > james > ed > florence | alex > james > vanda > chris > fred > ed > inga > florence > ken > emma > greg
+
+17/03/2017: ken > fred > ryan > emma > vanda > chris > ed > james > florence | florence > emma > james > ed > chris > vanda > fred > ken
+
+20/03/2017: ken > greg > ed > james > vanda > emma > ryan > chris | vanda > chris > ken > greg > ed > james > emma > ryan
+
+21/03/2017: ken > fred > alex > ryan > ed > vanda > emma > chris > greg | alex > ken > vanda > chris > greg > fred > ed > ryan > emma
+
+22/03/2017: ken > fred > emma > vanda > ryan > chris > ed > james | fred > ken > vanda > ryan > james > ed > chris > emma
+
+23/03/2017: ken > florence > fred > greg > ryan > emma > vanda > alex > chris > ed > james | alex > james > ryan > ken > vanda > emma > ed > chris > greg > fred > florence
+
+28/03/2017: ken > fred > greg > ryan > ed > james > alex > inga > vanda > chris > florence > emma | alex > ryan > ken > vanda > greg > inga > ed > chris > fred > florence > emma > james
+
+29/03/2017: ken > fred > greg > florence > ed > vanda > inga > chris > james > alex > emma | alex > ed > james > fred > chris > vanda > inga > emma > ken > florence > greg
+
+30/03/2017: ken > emma > vanda > ryan > florence > ed > chris > greg > inga > fred > james | fred > ryan > james > vanda > florence > chris > greg > inga > ken > emma > ed
+
+31/03/2017: ken > vanda > alex > greg > ed > fred > chris > florence > emma > inga > james > ryan | alex > chris > florence > inga > greg > emma > ed > vanda > james > ryan > ken > fred
