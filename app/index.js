@@ -4,7 +4,7 @@ const d3        = require('d3');
 require('d3-selection-multi');
 const D3SvgDrawer = require('./drawer/d3-svg-drawer.js').D3SvgDrawer;
 
-const data      = require('./data/march-2017.json');
+const data      = require('./temp/march-2017.json');
 
 const { JSDOM } = jsdom;
 
@@ -16,6 +16,6 @@ data.forEach((day, index) => {
       window.d3 = d3;
     } 
   }).then(dom => {
-    fs.writeFileSync(`${__dirname}/output/output_${index}.svg`, d3SvgDrawer.getSvgHtml(dom));
+    fs.writeFileSync(`${__dirname}/../output/svg/${index}.svg`, d3SvgDrawer.getSvgHtml(dom));
   });
 });

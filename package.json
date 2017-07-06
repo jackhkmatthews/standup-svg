@@ -4,7 +4,9 @@
   "description": "Node application for parsing standup txt file and then outputting svgs.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "parse": "node app/parser/parser.js",
+    "generate": "node app/index.js"
   },
   "author": "",
   "license": "ISC",
