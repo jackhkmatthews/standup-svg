@@ -1,10 +1,20 @@
-const StandupParser = require('standup-parser').StandupParser;
-const standupParser = new StandupParser;
-const fs = require('fs');
+const StandupParser  = require('standup-parser').StandupParser;
+const fs             = require('fs');
 
-const filePath = `${__dirname}/../../input/march-2017.txt`;
+const inputFolderPath = `${__dirname}/../../input`;
 
-standupParser.parse(filePath)
+function getFilePath(folderPath) {
+  const fileNames = fs.readdirSync(folderPath, (err, filenames) => filenames);
+  const fileName  = fileNames[0];
+  const filePath  = `${folderPath}/${fileName}`;
+  return filePath;
+}
+
+const inputFilePath = getFilePath(inputFolderPath);
+
+const standupParser  = new StandupParser;
+
+standupParser.parse(inputFilePath)
   .then(json => {
     fs.writeFile(`${__dirname}/../temp/march-2017.json`, JSON.stringify(json), 'utf8', function (err) {
       if (err) {
@@ -14,3 +24,6 @@ standupParser.parse(filePath)
     });
   });
 
+module.exports = {
+  getFilePath: getFilePath
+};
