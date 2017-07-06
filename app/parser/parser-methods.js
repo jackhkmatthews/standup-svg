@@ -1,12 +1,11 @@
 const fs             = require('fs');
 
-function getFilePath(folderPath) {
+function getFileName(folderPath) {
   const fileNames = fs.readdirSync(folderPath, (err, filenames) => filenames);
-  const fileName  = fileNames[0];
-  const filePath  = `${folderPath}/${fileName}`;
-  return filePath;
+  const fileName = fileNames[0];
+  return fileName.split('.')[0];
 }
 
 module.exports = {
-  getFilePath: getFilePath
+  getFileName: getFileName
 };
