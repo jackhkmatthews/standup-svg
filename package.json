@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "parse": "node app/parser/parser.js",
+    "parse": "node app/parser/index.js",
     "generate": "node app/index.js"
   },
   "author": "",

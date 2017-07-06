@@ -1,14 +1,9 @@
 const StandupParser  = require('standup-parser').StandupParser;
 const fs             = require('fs');
 
-const inputFolderPath = `${__dirname}/../../input`;
+const getFilePath    = require('./parser-methods').getFilePath;
 
-function getFilePath(folderPath) {
-  const fileNames = fs.readdirSync(folderPath, (err, filenames) => filenames);
-  const fileName  = fileNames[0];
-  const filePath  = `${folderPath}/${fileName}`;
-  return filePath;
-}
+const inputFolderPath = `${__dirname}/../../input`;
 
 const inputFilePath = getFilePath(inputFolderPath);
 
