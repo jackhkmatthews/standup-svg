@@ -2,7 +2,7 @@ const fs        = require('fs');
 const jsdom     = require('jsdom');
 const d3        = require('d3');
 require('d3-selection-multi');
-const D3SvgDrawer = require('./drawers/line.js').D3SvgDrawer;
+const D3SvgDrawer = require('./svg-drawers/line.js').D3SvgDrawer;
 const clearFolder = require('./utility/utility-methods.js').clearFolder;
 
 const data      = require('./temp/march-2017.json');
