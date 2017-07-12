@@ -4,8 +4,11 @@ const d3        = require('d3');
 require('d3-selection-multi');
 const D3SvgDrawer = require('./svg-drawers/line.js').D3SvgDrawer;
 const clearFolder = require('./utility/utility-methods.js').clearFolder;
+const getFileName = require('./parser/parser-methods').getFileName;
 
-const data      = require('./temp/march-2017.json');
+const tempFileName = getFileName(`${__dirname}/temp`);
+
+const data      = require(`./temp/${tempFileName}.json`);
 
 const { JSDOM } = jsdom;
 
